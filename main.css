@@ -1,0 +1,135 @@
+.intro{
+    background-image: url('images/hero_bg.jpg');
+    height: 1024px;
+    width: 1903px;
+    display: flex;
+    align-items: center;
+    font-family: "Raleway - Extra Bold";
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.header__menu{
+    max-height: 56px;
+    max-width: 1170px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header__bar__list{
+    display: flex;
+    min-width:710px ;
+    list-style: none;
+    padding: 0px;
+}
+.header__bar__list__item:not(:last-child){
+    margin-right: 30px ;
+}
+.header__bar__list__item:nth-last-of-type(2){
+    margin-left: 33px;
+}
+
+.header__bar__list__item{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.header__bar__list__item__text{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__bar__list__item:nth-of-type(2){
+    color: #c4c2a9;
+}
+
+.intro__wrapper{
+    max-width: 589px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 50;
+}
+.header__menu{
+    max-height: 56px;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    left: 50%;
+    justify-content: space-between;
+    top: 0;
+    color: #ffffff;
+    transform: translate(-50%);
+    z-index: 100;
+}
+.body{
+    margin: 0px;
+    max-width: 1903px;
+
+}
+.intro__wrapper__header{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+    padding-bottom: 0px;
+
+}
+.intro__wrapper__header__second{
+    color: white;
+    font-size: 52px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+.intro__wrapper__info{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.intro__wrapper__button{
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro::before{
+    content:'';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 1024px;
+    display: block;
+    background-color: rgba(17, 17, 17, 0.7);
+}
+.header__logo__name{
+    font-size: 36px;
+}
+
